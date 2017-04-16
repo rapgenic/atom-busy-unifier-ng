@@ -1,7 +1,7 @@
 {
   "name": "atom-busy-unifier-ng",
   "main": "./lib/index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bridge between busy and busy-signal (for whom is using noseglid's busy)",
   "keywords": [],
   "repository": "https://github.com/rapgenic/atom-busy-unifier-ng",
