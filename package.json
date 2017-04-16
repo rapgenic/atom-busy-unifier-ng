@@ -1,0 +1,29 @@
+{
+  "name": "atom-busy-unifier-ng",
+  "main": "./lib/index",
+  "version": "0.0.0",
+  "description": "Bridge between busy and busy-signal (for whom is using noseglid's busy)",
+  "keywords": [],
+  "repository": "https://github.com/rapgenic/atom-busy-unifier-ng",
+  "license": "GPL-3.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "busy"
+  ],
+  "consumedServices": {
+    "busy": {
+      "versions": {
+        "^1.0.0": "consumeBusy"
+      }
+    }
+  },
+  "providedServices": {
+    "busy-signal": {
+      "versions": {
+        "1.0.0": "providerRegistry"
+      }
+    }
+  }
+}
